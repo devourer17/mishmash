@@ -22,7 +22,7 @@ class Experience extends Component {
                     <div className="timeline-block timeline-block-left">
                         <div className="marker"></div>
                         <div className="timeline-content">
-                            <h3>2020-2021</h3>
+                            <h3>2019-2020</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto, aut
                                 commodi distinctio, eligendi, eos ipsam itaque magni minima nemo nisi nostrum
                                 praesentium quibusdam quidem quod ratione recusandae sunt tempore veritatis vitae?
@@ -33,7 +33,7 @@ class Experience extends Component {
                     <div className="timeline-block timeline-block-right">
                         <div className="marker"></div>
                         <div className="timeline-content">
-                            <h3>2020-2021</h3>
+                            <h3>2018-2019</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto, aut
                                 commodi distinctio, eligendi, eos ipsam itaque magni minima nemo nisi nostrum
                                 praesentium quibusdam quidem quod ratione recusandae sunt tempore veritatis vitae?
@@ -44,7 +44,7 @@ class Experience extends Component {
                     <div className="timeline-block timeline-block-left">
                         <div className="marker"></div>
                         <div className="timeline-content">
-                            <h3>2020-2021</h3>
+                            <h3>2017-2018</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto, aut
                                 commodi distinctio, eligendi, eos ipsam itaque magni minima nemo nisi nostrum
                                 praesentium quibusdam quidem quod ratione recusandae sunt tempore veritatis vitae?
@@ -55,7 +55,7 @@ class Experience extends Component {
                     <div className="timeline-block timeline-block-right">
                         <div className="marker"></div>
                         <div className="timeline-content">
-                            <h3>2020-2021</h3>
+                            <h3>2016-2017</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto, aut
                                 commodi distinctio, eligendi, eos ipsam itaque magni minima nemo nisi nostrum
                                 praesentium quibusdam quidem quod ratione recusandae sunt tempore veritatis vitae?
@@ -66,7 +66,7 @@ class Experience extends Component {
                     <div className="timeline-block timeline-block-left">
                         <div className="marker"></div>
                         <div className="timeline-content">
-                            <h3>2020-2021</h3>
+                            <h3>2015-2016</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto, aut
                                 commodi distinctio, eligendi, eos ipsam itaque magni minima nemo nisi nostrum
                                 praesentium quibusdam quidem quod ratione recusandae sunt tempore veritatis vitae?
