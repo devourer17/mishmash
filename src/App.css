@@ -160,7 +160,7 @@ nav ul li {
 .services h2{
   margin-bottom: 0px !important;
   text-transform: uppercase;
-  color: rgb(52, 58, 64);
+  color: #42C4FF;
 }
 
 .services .circle{
@@ -297,6 +297,10 @@ nav ul li {
 .portfolio-wrapper{
   background: #f4f4f4;
   padding: 3rem 0;
+}
+
+.portfolio-wrapper h1{
+  color: #42C4FF;
 }
 
 .portfolio-image{
