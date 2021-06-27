@@ -354,3 +354,34 @@ nav ul li {
 .hyper-link:hover{
   color: red;
 }
+
+@media(max-width: 768px) {
+  .portfolio-image-popupbox{
+    width: 100%;
+  }
+}
+
+/* iPad */
+@media(height: 768px) {
+  .portfolio-image-popupbox{
+    width: 100%;
+  }
+}
+
+@media(max-height: 640px) {
+  .portfolio-image-popupbox{
+    width: 80%;
+  }
+  .portfolio-wrapper{
+    height: 100%;
+  }
+}
+
+@media(max-height: 380px) {
+  .portfolio-image-popupbox{
+    width:25%;
+  }
+  .portfolio-wrapper{
+    height: 100%;
+  }
+}
