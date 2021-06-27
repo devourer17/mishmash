@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import siteLogo from "../images/logo.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faBars} from "@fortawesome/free-solid-svg-icons"
 
 class NavigationBar extends Component {
     render() {
@@ -12,7 +12,7 @@ class NavigationBar extends Component {
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                        <FontAwesomeIcon icon={faBars} />
+                        <FontAwesomeIcon icon={faBars}/>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav">

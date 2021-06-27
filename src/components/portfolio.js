@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import image1 from "../images/portfolio00001.jpg";
-import image2 from "../images/portfolio00002.jpg";
-import image3 from "../images/portfolio00003.jpg";
-import image4 from "../images/portfolio00004.jpg";
+import image1 from "../images/portfolios/portfolio00001.jpg";
+import image2 from "../images/portfolios/portfolio00002.jpg";
+import image3 from "../images/portfolios/portfolio00003.jpg";
+import image4 from "../images/portfolios/portfolio00004.jpg";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSearchPlus} from "@fortawesome/free-solid-svg-icons";
 import {PopupboxManager, PopupboxContainer} from "react-popupbox"
