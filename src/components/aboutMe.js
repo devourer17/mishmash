@@ -4,7 +4,7 @@ import author from "../images/author.jpg"
 class AboutMe extends Component {
     render() {
         return (
-            <div className="container py-5">
+            <div id="aboutMe" className="container py-5">
                 <div className="row">
                     <div className="col-lg-6 com-xm-12">
                         <div className="photo-wrap">

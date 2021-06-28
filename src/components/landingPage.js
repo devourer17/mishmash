@@ -4,7 +4,7 @@ import Typed from 'react-typed'
 class LandingPage extends Component {
     render() {
         return (
-            <div className="header-wrapper">
+            <div id="home" className="header-wrapper">
                 <div className="main-info">
                     <h1>Calligraphy Portfolio</h1>
                     <Typed

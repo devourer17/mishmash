@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
-import siteLogo from "../images/logo.png"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faBars} from "@fortawesome/free-solid-svg-icons"
+import siteLogo from "../images/logo.png";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBars} from "@fortawesome/free-solid-svg-icons";
+import {Link} from "react-scroll";
 
 class NavigationBar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-light navCustom">
+            <nav id="myHeader" className="navbar navbar-expand-lg navbar-light navCustom">
                 <div className="container">
                     <a className="navbar-brand" href="#"><img className="menuLogo" src={siteLogo}/></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -17,22 +18,25 @@ class NavigationBar extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">Home</a>
+                                <Link to="myHeader" className="nav-link" href="#">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Me</a>
+                                <Link to="aboutMe" className="nav-link" href="#">About Me</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Services</a>
+                                <Link to="services" className="nav-link" href="#">Services</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Experience</a>
+                                <Link to="experiences" className="nav-link" href="#">Experience</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Portfolio</a>
+                                <Link to="portfolio" className="nav-link" href="#">Portfolio</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact Us</a>
+                                <Link to="testimonials" className="nav-link" href="#">Testimonials</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="contactUs" className="nav-link" href="#">Contact Us</Link>
                             </li>
                         </ul>
                     </div>

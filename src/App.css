@@ -2,26 +2,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-.menuLogo {
-    width: 200px;
-}
-
 body {
     font-family: 'Roboto Condensed', sans-serif !important;
 }
 
 .navCustom {
-    /* Placing Above Particles */
     z-index: 2;
-
     background-color: #1B1F24 !important;
+}
 
-    /* Fixing Header Pane
-      position: fixed;
-      width: 100%;
-      top: 0;
-      overflow: hidden;
-     */
+.navCustom .menuLogo{
+    width: 100%;
 }
 
 nav a.nav-link {
@@ -51,7 +42,7 @@ nav ul li {
 }
 
 /* Active/Focus/Hover*/
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus, .navbar-nav > li > a:hover {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus, .navbar-nav > li > a:hover {
     border-top: 3px solid #42C4FF;
 }
 
@@ -64,6 +55,13 @@ nav ul li {
     background-size: cover;
     background: url("images/office-setup.jpg") no-repeat center;
     height: 90vh;
+}
+
+/* iPad Pro */
+@media screen and (width: 1024px) and (height: 1366px) {
+    .header-wrapper{
+        height: 100vh;
+    }
 }
 
 .main-info {
@@ -351,7 +349,7 @@ nav ul li {
 }
 
 .portfolio-image-popupbox {
-    width: 50rem;
+    width: 100%;
     padding: 0.5rem 0.5rem;
 }
 
@@ -364,32 +362,18 @@ nav ul li {
     color: red;
 }
 
-@media (max-width: 768px) {
-    .portfolio-image-popupbox {
-        width: 100%;
-    }
-}
-
-/* iPad */
-@media (height: 768px) {
-    .portfolio-image-popupbox {
-        width: 100%;
-    }
-}
-
 @media (max-height: 640px) {
     .portfolio-image-popupbox {
-        width: 80%;
+        width: 60%;
     }
-
     .portfolio-wrapper {
-        height: 100%;
+        height: 70%;
     }
 }
 
 @media (max-height: 380px) {
     .portfolio-image-popupbox {
-        width: 25%;
+        width: 15%;
     }
 
     .portfolio-wrapper {
@@ -448,4 +432,26 @@ nav ul li {
     padding-top: 2%;
     width: 10rem !important;
     border-radius: 50%;
+}
+
+/* FOOTER */
+.footer{
+    background: #1B1F24;
+    color: #42C4FF;
+    padding: 3%;
+}
+
+.footer a, .footer p{
+    text-decoration: none;
+    color: #a2a4a9;
+}
+
+.footer a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: #42C4FF;
+}
+
+.my-share-icons{
+    overflow: hidden;
 }

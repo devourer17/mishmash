@@ -99,7 +99,7 @@ class Portfolio extends Component {
 
     render() {
         return (
-            <div className="portfolio-wrapper">
+            <div id="portfolio" className="portfolio-wrapper">
                 <div className="container">
                     <h1 className="text-uppercase py-5 text-center">
                         Portfolio

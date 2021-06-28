@@ -5,7 +5,7 @@ import {faPaintBrush, faGifts, faPortrait, faAddressCard} from "@fortawesome/fre
 class Services extends Component {
     render() {
         return (
-            <div className="services">
+            <div id="services" className="services">
                 <h2 className="py-5">My Services</h2>
                 <div className="container">
                     <div className="row">
