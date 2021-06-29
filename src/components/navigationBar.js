@@ -36,7 +36,7 @@ class NavigationBar extends Component {
                                 <Link to="testimonials" className="nav-link" href="#">Testimonials</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="contactUs" className="nav-link" href="#">Contact Us</Link>
+                                <Link to="contactMe" className="nav-link" href="#">Contact Us</Link>
                             </li>
                         </ul>
                     </div>

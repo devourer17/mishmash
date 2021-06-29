@@ -436,7 +436,7 @@ nav ul li {
 
 /* FOOTER */
 .footer{
-    background: #1B1F24;
+    background: #3d3d40;
     color: #42C4FF;
     padding: 3%;
 }
@@ -454,4 +454,74 @@ nav ul li {
 
 .my-share-icons{
     overflow: hidden;
+}
+
+/* CONTACT ME */
+.contact-me{
+    background: #1B1F24;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.contact-me h1{
+    color: #42C4FF;
+    text-transform: uppercase;
+    padding: 1.3rem 0;
+}
+
+.contact-me p{
+    color: #a2a4a9;
+    padding: 0.5rem 0;
+}
+
+.contact-me input, .contact-me textarea{
+    width: 100%;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border-radius: 1px;
+    border-bottom: 2px solid #a2a4a9;
+    color: #42C4FF;
+    top: 0;
+    outline: 0 !important;
+    box-shadow: none !important;
+    margin: 1rem 0;
+}
+
+.contact-me .container{
+    padding: 3rem 0;
+}
+
+.contact-me input:focus, .contact-me textarea:focus{
+    color: #42C4FF;
+    background: transparent;
+    border-bottom: 2px solid #42C4FF;
+}
+
+.contact-me textarea{
+    padding-bottom: 36px;
+}
+
+.contact-me button{
+    width: 50% !important;
+    margin: 8% 0 2% 0;
+    box-shadow: none;
+}
+
+.contact-me button:hover{
+    background: #42C4FF;
+    border: 1px solid #1B1F24;
+    box-shadow: none;
+    color: #1B1F24;
+    font-weight: 800;
+}
+
+@media(max-width: 768px){
+    .contact-me .container{
+        padding: 0 1rem;
+    }
+    .contact-me p{
+        padding: 0 1rem;
+    }
 }
